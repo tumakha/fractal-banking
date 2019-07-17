@@ -1,0 +1,9 @@
+{
+  "bankId": 6,
+  "transactionId": "25a4d256-094f-4637-bea0-5f82760674b0",
+  "category": {
+    "name": "Online Shopping",
+    "userDefined": true
+  },
+  "userDefined": true
+}

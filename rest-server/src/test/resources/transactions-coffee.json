@@ -1,0 +1,177 @@
+{
+  "page": 0,
+  "totalPages": 1,
+  "totalElements": 7,
+  "size": 50,
+  "content": [
+    {
+      "bankId": 6,
+      "transactionId": "afda4441-63bf-4e05-9a82-f6849e265ff2",
+      "transactionCategory": {
+        "category": {
+          "name": "Coffee",
+          "userDefined": false
+        },
+        "userDefined": false
+      },
+      "accountId": "fakeacc",
+      "merchantName": "COSTA COFFEE",
+      "description": "COSTA COFFEE",
+      "amount": "13.9",
+      "currencyCode": "GBP",
+      "type": "DEBIT",
+      "bookingDate": "2017-01-13",
+      "status": "BOOKED",
+      "reference": "",
+      "transactionCode": "",
+      "transactionSubCode": "",
+      "proprietaryCode": "",
+      "proprietarySubCode": ""
+    },
+    {
+      "bankId": 6,
+      "transactionId": "75660071-9994-4457-93d8-002f6a080e17",
+      "transactionCategory": {
+        "category": {
+          "name": "Coffee",
+          "userDefined": false
+        },
+        "userDefined": false
+      },
+      "accountId": "fakeacc",
+      "merchantName": "COSTA COFFEE",
+      "description": "COSTA COFFEE",
+      "amount": "6.2",
+      "currencyCode": "GBP",
+      "type": "DEBIT",
+      "bookingDate": "2017-10-02",
+      "status": "BOOKED",
+      "reference": "",
+      "transactionCode": "",
+      "transactionSubCode": "",
+      "proprietaryCode": "",
+      "proprietarySubCode": ""
+    },
+    {
+      "bankId": 6,
+      "transactionId": "b5420564-2f4e-4b10-bba9-274eab8d1b5f",
+      "transactionCategory": {
+        "category": {
+          "name": "Coffee",
+          "userDefined": false
+        },
+        "userDefined": false
+      },
+      "accountId": "fakeacc",
+      "merchantName": "Starbucks",
+      "description": "LOW BALANCE",
+      "amount": "15000.0",
+      "currencyCode": "GBP",
+      "type": "DEBIT",
+      "bookingDate": "2018-07-22",
+      "status": "BOOKED",
+      "reference": "",
+      "transactionCode": "",
+      "transactionSubCode": "",
+      "proprietaryCode": "",
+      "proprietarySubCode": ""
+    },
+    {
+      "bankId": 6,
+      "transactionId": "58b87c57-b3e4-4b5b-9423-c0f13b9f2eb1",
+      "transactionCategory": {
+        "category": {
+          "name": "Coffee",
+          "userDefined": false
+        },
+        "userDefined": false
+      },
+      "accountId": "fakeacc",
+      "merchantName": "Starbucks",
+      "description": "STARBUCKS VICTORIA STN",
+      "amount": "850000.0",
+      "currencyCode": "GBP",
+      "type": "DEBIT",
+      "bookingDate": "2018-07-22",
+      "status": "BOOKED",
+      "reference": "",
+      "transactionCode": "",
+      "transactionSubCode": "",
+      "proprietaryCode": "",
+      "proprietarySubCode": ""
+    },
+    {
+      "bankId": 6,
+      "transactionId": "baa36afb-6c82-4a52-ade1-b7e40f59146f",
+      "transactionCategory": {
+        "category": {
+          "name": "Coffee",
+          "userDefined": false
+        },
+        "userDefined": false
+      },
+      "accountId": "fakeacc",
+      "merchantName": "Starbucks",
+      "description": "money in",
+      "amount": "6000.0",
+      "currencyCode": "GBP",
+      "type": "CREDIT",
+      "bookingDate": "2018-07-24",
+      "status": "BOOKED",
+      "reference": "",
+      "transactionCode": "",
+      "transactionSubCode": "",
+      "proprietaryCode": "",
+      "proprietarySubCode": ""
+    },
+    {
+      "bankId": 6,
+      "transactionId": "4661c026-4605-4773-9b49-b781ed9909ca",
+      "transactionCategory": {
+        "category": {
+          "name": "Coffee",
+          "userDefined": false
+        },
+        "userDefined": false
+      },
+      "accountId": "fakeacc",
+      "merchantName": "Starbucks",
+      "description": "STARBUCKS POULTRY STN",
+      "amount": "2000.0",
+      "currencyCode": "GBP",
+      "type": "DEBIT",
+      "bookingDate": "2018-07-24",
+      "status": "BOOKED",
+      "reference": "",
+      "transactionCode": "",
+      "transactionSubCode": "",
+      "proprietaryCode": "",
+      "proprietarySubCode": ""
+    },
+    {
+      "bankId": 6,
+      "transactionId": "0ef942ea-d3ad-4f25-857b-4d4bb7f912d8",
+      "transactionCategory": {
+        "category": {
+          "name": "Coffee",
+          "userDefined": false
+        },
+        "userDefined": false
+      },
+      "accountId": "fakeacc",
+      "companyId": 51,
+      "merchantName": "Starbucks",
+      "description": "STARBUCKS COFFEE Simple",
+      "amount": "1000.0",
+      "currencyCode": "GBP",
+      "type": "DEBIT",
+      "bookingDate": "2018-07-24",
+      "status": "BOOKED",
+      "reference": "",
+      "transactionCode": "",
+      "transactionSubCode": "",
+      "proprietaryCode": "",
+      "proprietarySubCode": ""
+    }
+  ]
+}

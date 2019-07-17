@@ -1,0 +1,7 @@
+
+logging.level:
+  fractal.sdk: DEBUG
+
+fractal:
+  authBase: http://localhost:8013
+  bankingBase: http://localhost:8013

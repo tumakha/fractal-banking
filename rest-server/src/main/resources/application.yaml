@@ -1,0 +1,22 @@
+
+server.port: 8888
+
+spring:
+  main.banner-mode: 'OFF'
+
+management.endpoints.web.exposure.include:
+  - health
+  - heapdump
+  - env
+  - metrics
+
+logging.level:
+  org.springframework: WARN
+  fractal.sdk: INFO
+  fractal.banking: INFO
+
+fractal:
+  authBase: https://7gq3bccyoa.execute-api.eu-west-1.amazonaws.com
+  bankingBase: https://r7p2rhg4ji.execute-api.eu-west-1.amazonaws.com
+  apiKey: uv3aFc9ReW56ZuQLHymAwaN5Jht1szWw5uNdvs18
+  partnerId: 5111acc7-c9b3-4d2a-9418-16e97b74b1e6

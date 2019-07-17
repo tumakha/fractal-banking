@@ -1,0 +1,35 @@
+subprojects {
+    apply plugin: 'java'
+
+    group = 'fractal.banking'
+    version = '0.0.1-SNAPSHOT'
+
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+
+    buildscript {
+        ext {
+            lombokVersion = '1.18.8'
+        }
+
+        repositories {
+            mavenCentral()
+        }
+
+        configurations {
+            compileOnly {
+                extendsFrom annotationProcessor
+            }
+        }
+    }
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        compileOnly "org.projectlombok:lombok:${lombokVersion}"
+        annotationProcessor "org.projectlombok:lombok:${lombokVersion}"
+    }
+
+}

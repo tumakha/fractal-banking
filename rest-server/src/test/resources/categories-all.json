@@ -1,0 +1,36 @@
+{
+  "page": 0,
+  "totalPages": 1,
+  "totalElements": 7,
+  "size": 50,
+  "content": [
+    {
+      "name": "Coffee",
+      "userDefined": false
+    },
+    {
+      "name": "Eating Out",
+      "userDefined": false
+    },
+    {
+      "name": "Online Shopping",
+      "userDefined": true
+    },
+    {
+      "name": "Salary",
+      "userDefined": false
+    },
+    {
+      "name": "Shopping",
+      "userDefined": false
+    },
+    {
+      "name": "Travel",
+      "userDefined": false
+    },
+    {
+      "name": "Uncategorised",
+      "userDefined": false
+    }
+  ]
+}

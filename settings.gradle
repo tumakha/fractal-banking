@@ -1,0 +1,8 @@
+pluginManagement {
+	repositories {
+		gradlePluginPortal()
+	}
+}
+rootProject.name = 'fractal-banking'
+
+include 'fractal-sdk', 'categorization-service', 'rest-server'

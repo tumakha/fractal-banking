@@ -1,0 +1,14 @@
+{
+  "companyId": 191,
+  "bankId": 6,
+  "currency": "GBP",
+  "AccountId": "fakeacc",
+  "Account": {
+    "SchemeName": "IBAN",
+    "Identification": "GB30BANK44533564280837",
+    "Name": "Debit Account",
+    "SecondaryIdentification": ""
+  },
+  "dateAuthorised": "2018-09-06",
+  "revoked": false
+}

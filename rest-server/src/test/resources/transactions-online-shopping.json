@@ -1,0 +1,33 @@
+{
+  "page": 0,
+  "totalPages": 1,
+  "totalElements": 1,
+  "size": 50,
+  "content": [
+    {
+      "bankId": 6,
+      "transactionId": "25a4d256-094f-4637-bea0-5f82760674b0",
+      "transactionCategory": {
+        "category": {
+          "name": "Online Shopping",
+          "userDefined": true
+        },
+        "userDefined": true
+      },
+      "accountId": "fakeacc",
+      "companyId": 15,
+      "merchantName": "AMAZON UK RETAIL",
+      "description": "INT'L 0020481195 AMAZON UK RETAIL A AMAZON.CO.UK",
+      "amount": "23.12",
+      "currencyCode": "GBP",
+      "type": "DEBIT",
+      "bookingDate": "2017-04-28",
+      "status": "BOOKED",
+      "reference": "",
+      "transactionCode": "",
+      "transactionSubCode": "",
+      "proprietaryCode": "",
+      "proprietarySubCode": ""
+    }
+  ]
+}

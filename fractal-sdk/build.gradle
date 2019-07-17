@@ -1,0 +1,11 @@
+ext {
+    retrofitVersion = '2.6.0'
+    okHttpVersion = '3.12.0'
+}
+
+dependencies {
+    implementation "com.squareup.retrofit2:retrofit:${retrofitVersion}"
+    implementation "com.squareup.retrofit2:converter-jackson:${retrofitVersion}"
+    implementation "com.squareup.okhttp3:logging-interceptor:${okHttpVersion}"
+    testImplementation 'junit:junit:4.12'
+}
