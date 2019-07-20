@@ -1,16 +1,12 @@
 package fractal.banking.dto;
 
 import fractal.banking.domain.Category;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.Value;
 
 /**
  * @author Yuriy Tumakha
  */
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
+@Value
 public class CategoryDTO {
 
   private String name;

@@ -58,9 +58,8 @@ public class TransactionDTO {
 
     TransactionCategory transCategory = t.getTransactionCategory();
     if (transCategory != null) {
-      TransactionCategoryDTO transCatDTO = new TransactionCategoryDTO();
-      transCatDTO.setCategory(CategoryDTO.of(transCategory.getCategory()));
-      transCatDTO.setUserDefined(transCategory.isUserDefined());
+      TransactionCategoryDTO transCatDTO = TransactionCategoryDTO.of(
+          CategoryDTO.of(transCategory.getCategory()), transCategory.isUserDefined());
 
       dto.setTransactionCategory(transCatDTO);
     }

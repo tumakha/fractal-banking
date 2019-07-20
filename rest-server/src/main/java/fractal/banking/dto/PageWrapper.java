@@ -1,5 +1,6 @@
 package fractal.banking.dto;
 
+import lombok.Value;
 import org.springframework.data.domain.Page;
 
 import java.util.List;
@@ -7,13 +8,10 @@ import java.util.List;
 /**
  * @author Yuriy Tumakha
  */
+@Value
 public class PageWrapper<T> {
 
     private Page<T> page;
-
-    public PageWrapper(Page<T> page) {
-        this.page = page;
-    }
 
     public List<T> getContent() {
         return page.getContent();

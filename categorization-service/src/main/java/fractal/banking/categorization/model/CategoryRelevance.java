@@ -1,13 +1,11 @@
 package fractal.banking.categorization.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.Value;
 
 /**
  * @author Yuriy Tumakha
  */
-@Data
-@AllArgsConstructor
+@Value
 public class CategoryRelevance {
 
   private String category;

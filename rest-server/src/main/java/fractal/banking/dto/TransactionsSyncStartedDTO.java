@@ -2,16 +2,12 @@ package fractal.banking.dto;
 
 import fractal.sdk.banking.model.Account;
 import fractal.sdk.banking.model.AccountResponse;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.Value;
 
 /**
  * @author Yuriy Tumakha
  */
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
+@Value
 public class TransactionsSyncStartedDTO {
 
   private String message;
